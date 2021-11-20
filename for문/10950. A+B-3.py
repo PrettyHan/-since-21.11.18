@@ -1,5 +1,6 @@
 # 10950번. A+B-3
-A, B = int(input().split())
+T = int(input())
 
-for T in range(4):
-    print(A+B)
+for _ in range(T):
+    a, b = map(int, input().split())
+    print(a+b)
