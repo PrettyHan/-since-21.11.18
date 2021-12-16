@@ -9,5 +9,4 @@ for i in range(int(T)):
     if N % H == 0:
        X = N//H
        Y = H
-
-print(f'{Y*100+X}')
+    print(f'{Y*100+X}')
