@@ -5,7 +5,7 @@ ans_hour = 0
 
 ans_hour = hour + (time)//60
 ans_min = min + (time%60)
-if ans_min == 60:
+if ans_min >= 60:
     ans_hour += 1
     ans_min -= 60
 

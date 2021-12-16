@@ -9,5 +9,6 @@ for _ in range(T):
     for word in Z:
         if word in S:
             print(word*int(X), end = '')
+  
 
 # 이거 왜 틀리지?
