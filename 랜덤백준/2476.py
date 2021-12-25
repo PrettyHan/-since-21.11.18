@@ -17,7 +17,7 @@ for i in range(T):
         B = (1000+c*100)
     else:
         C = max(a,b,c)*100
-    ans.append(max(A, B, C))
+    ans.append(max(A, B, C)) # 3개 append 못하니까 차라리 max 함수로 a,b,c 나오는 숫자대로 갖고옴 B 되면 A, C 는 자동으로 0 되서 어챂 똑같음
 
 ans.sort()
 print(ans[-1])
