@@ -11,3 +11,4 @@ for i in range(1, N+1): # range 함수로 1 ~ N+1 까지 한수 범위
         hansu += 1
 
 print(hansu)
+# chack
