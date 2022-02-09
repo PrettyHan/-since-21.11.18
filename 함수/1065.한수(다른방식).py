@@ -8,7 +8,7 @@ def solve(n):
     
     elif n < 1000 :
         while n != 0:    
-            a.append(int(n % 10)) # 이건 뭐지? 자릿수 만들어준건가
+            a.append(int(n % 10))
             n = n/10
 
         if (a[0] - a[1]) == (a[1] - a[2]):
