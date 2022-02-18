@@ -25,6 +25,8 @@ print(cnt)
 
 # ;; 너무길지않나
 
+# 다른 방법 
+
 x = input() # if X = ABC
 dial = ['ABC','DEF','GHI','JKL','MNO','PQRS','TUV','WXYZ']
 cnt = 0
