@@ -24,9 +24,8 @@ def bfs():
             if graph[nx][ny] == 0:
                 graph[nx][ny] = graph[x][y] + 1
                 queue.append((nx, ny))
-    for j in graph:
-        if 0 in j:
-            return -1
+    if list(filter(lambda row: 0 in row, graph)):
+        return -1
     return max(map(max, graph)) - 1
 
 print(bfs())
