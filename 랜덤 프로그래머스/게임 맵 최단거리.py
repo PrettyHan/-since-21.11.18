@@ -6,7 +6,6 @@ def solution(maps):
     dx = [-1, 1, 0, 0]
     dy = [0, 0, -1, 1]
     queue = deque()
-    answer = 0
     queue.append((0,0))
     while queue:
         x, y = queue.popleft()
@@ -23,5 +22,3 @@ def solution(maps):
     if maps[n-1][m-1] == 1:
         return -1
     return maps[n-1][m-1]
-                
-    print(queue)
