@@ -1,8 +1,8 @@
 import sys
 
 N, M = map(int, sys.stdin.readline().split())
-
-arr = sorted(list(int(sys.stdin.readline().rstrip()) for i in range(N)))
+input = sys.stdin.readline
+arr = sorted(list(int(input().rstrip()) for i in range(N)))
 diff = []
 start = 0
 end = 0
